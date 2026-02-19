@@ -1,7 +1,7 @@
 ﻿import React, { useEffect, useState } from "react";
 import axios from "axios";
-import NewsCard from "./NewsCard";
-import CompanyCard from "./CompanyCard";
+import NewsCard from "./NewsCard.js";
+import CompanyCard from "./CompanyCard.js";
 
 const Dashboard = () => {
   const [news, setNews] = useState([]);
@@ -91,4 +91,5 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
 
